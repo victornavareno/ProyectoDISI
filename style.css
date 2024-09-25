@@ -1,0 +1,159 @@
+body {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(248, 248, 238);
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    border: 5px solid slateblue;
+}
+
+section {
+    margin: 15px 0;
+}
+
+h2 {
+    color: slateblue;
+    border-bottom: 1px solid slateblue;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+li {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+li::marker {
+    color: slateblue;
+}
+
+th {
+    background-color: slateblue;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+td {
+    border: 1px solid slateblue;
+    text-align: center;
+}
+
+tr:last-child td {
+    border-radius: 0 0 5px 5px;
+}
+
+form li{
+    margin-bottom: 5px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.notice {
+  background-color: #EFEFEF;
+  border: 3px solid #444;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.notice::before {
+  content: "Intereses y aficiones";
+  background: #AACCFF;
+  width: 15rem;
+  border-right: 3px solid #444;
+  border-bottom: 3px solid #444;
+  display: block;
+  text-align: center;
+  position: relative;
+  left: -1rem;
+  top: -1rem;
+  padding: 2px 10px;
+  font-weight: bold;
+}
+
+textarea, input {
+    border-radius: 5px;
+    border: 1px solid slateblue;
+}
+
+span {
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a#return{
+    width: fit-content;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: slateblue;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+#integrantes {
+    display: flex;
+    flex-direction: column;
+}
+
+#integrantes a{
+    margin: 2px 0;
+    width: fit-content;
+}
+#integrantes a::before{
+    content: " ";
+    border: 2px solid slateblue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 10px;
+}
+
+#organizacion {
+    display: flex;
+    flex-direction: column;
+}
+
+#organizacion span{
+    margin: 0;
+}
